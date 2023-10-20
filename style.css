@@ -78,12 +78,40 @@ nav a:hover::after {
   width: 100%;
 }
 
-.logo {
-  margin: 0;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #ffffff;
+.nav-links a {
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
 }
+.nav-links a:hover{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.profile_name {
+  float: left;
+  padding-left: 2cm;
+  /* Add the styles here */
+  color: white;
+  font-size: 30px;
+}
+
+.profile_name .contact_info {
+  font-size: 15px;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contact_info img {
+  width:25px;
+  margin-right: 10px;
+  float:left;
+}
+
+
 
 /* Resp  */
 .hamburger-menu {
@@ -155,6 +183,7 @@ nav a:hover::after {
   align-items: center;
   height: 100vh;
   padding: 0 10%;
+  margin-top: 30px;
 }
 
 .intro,
@@ -188,6 +217,7 @@ nav a:hover::after {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .profile-pic img {
@@ -571,3 +601,7 @@ footer p {
   margin-bottom: 10px;
   color: rgb(255, 255, 255);
 }
+
+
+
+
